@@ -1,0 +1,30 @@
+/*
+	Script Name: AdvancedWelcomeUI
+	Version: 1.0.0
+	Description: Advanced welcome ui with discord button
+	Created By: R3misTry
+*/
+
+Title = "Welcome To Server!";
+Comment = "Can You Join Discord Please?";
+Close = "Close";
+discordinvitemessage = "Join The Discord!";
+discordinvitelink = "https://discord.gg/czCZFQvEcD";
+
+event onPlayerJoined(player,key){
+    player.effects.sendUI(22113, 22, Title, Comment, Close);
+    player.effects.showCursor();
+}
+
+event onEffectButtonClicked(player,key){
+    if(key == "Discord_Button"){
+        player.browserRequest(discordinvitemessage, discordinvitelink);
+    }
+}
+
+event onEffectButtonClicked(player,key){
+    if(key == "Close_Button"){
+        player.effects.clearUIById(22113);
+        player.effects.hideCursor();
+    }
+}
