@@ -1,2 +1,2 @@
-# AdvancedWelcomeUI
-A welcome screen when players enter the server
+# Workshop
+https://steamcommunity.com/sharedfiles/filedetails/?id=2494462228
