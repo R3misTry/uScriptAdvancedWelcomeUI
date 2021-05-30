@@ -1,2 +1,2 @@
-# uScriptAdvancedWelcomeUI
-A welcome screen when players enter the server
+# WORKSHOP
+https://steamcommunity.com/sharedfiles/filedetails/?id=2494462228
